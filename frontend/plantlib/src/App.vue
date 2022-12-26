@@ -6,12 +6,31 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
 </script>
 
 <script>
+  import axios from 'axios'
   export default {
+    data() {
+      return {
+          plant: ''
+      }
+    },
     methods: {
       onScan (decodedText, decodedResult) {
-        console.log(decodedText);
-        console.log(decodedResult);
+        // console.log(decodedText);
+        // console.log(decodedResult);
+        this.getData(decodedText);
 
+      },
+      async getData(uid) {
+        try {
+            // fetch plants
+            const response = await axios.get('http://localhost:8000/api/plant/' + uid);
+            // set the data returned as plants
+            this.plant = response.data; 
+            console.log(this.plant);
+        } catch (error) {
+            // log the error
+            console.log(error);
+        }
       }
     }
   }
@@ -37,7 +56,8 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
       style="width: 500px;"
       @result="onScan"
     />
-    <Plants />
+    <!-- <Plants /> -->
+    <h2 v-bind="plant"><b>{{ plant.uid }}</b> - {{ plant.genus }} {{ plant.species }}</h2>
     
   </main>
 </template>
