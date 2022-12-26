@@ -2,6 +2,19 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Plants from './components/Plants.vue'
+import QRCodeScanner from './components/QRCodeScanner.vue'
+</script>
+
+<script>
+  export default {
+    methods: {
+      onScan (decodedText, decodedResult) {
+        console.log(decodedText);
+        console.log(decodedResult);
+
+      }
+    }
+  }
 </script>
 
 <template>
@@ -18,7 +31,14 @@ import Plants from './components/Plants.vue'
 
   <main>
     <!-- TheWelcome /-->
+    <QRCodeScanner 
+      :qrbox="250" 
+      :fps="10" 
+      style="width: 500px;"
+      @result="onScan"
+    />
     <Plants />
+    
   </main>
 </template>
 
