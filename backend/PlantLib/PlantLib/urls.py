@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from PlantLib.api import views
+from PlantLib.api import urls as api_urls
+
 
 
 router = routers.DefaultRouter()
@@ -28,5 +30,6 @@ router.register(r'plants', views.PlantsViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('api/', include(api_urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
