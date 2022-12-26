@@ -12,7 +12,7 @@ def get_avatar_filename(instance, filename):
 
 def create_uid(owner):
     no = Plant.objects.filter(owner=owner).count() + 1
-    return f'{owner.id}|{no}'
+    return f'{owner.id}-{no}'
 
 
 class Plant(models.Model):
