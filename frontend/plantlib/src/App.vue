@@ -10,7 +10,9 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
   export default {
     data() {
       return {
-          plant: ''
+          plant: '',
+          show_scanner: false,
+          scan_button_name: 'Scan'
       }
     },
     methods: {
@@ -31,6 +33,16 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
             // log the error
             console.log(error);
         }
+      },
+      toggleScannerShowing (){
+        this.show_scanner = !this.show_scanner;
+        if (this.show_scanner){
+          this.scan_button_name = 'Hide scanner';
+        } else {
+          this.scan_button_name = 'Scan again!';
+        }
+        
+        
       }
     }
   }
@@ -38,9 +50,8 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <!--
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
@@ -50,14 +61,31 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
 
   <main>
     <!-- TheWelcome /-->
-    <QRCodeScanner 
-      :qrbox="250" 
-      :fps="10" 
-      style="width: 500px;"
-      @result="onScan"
-    />
-    <!-- <Plants /> -->
-    <h2 v-bind="plant"><b>{{ plant.uid }}</b> - {{ plant.genus }} {{ plant.species }}</h2>
+    
+
+    <div class="container">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <object data="/src/assets/plant-lib-logo.svg" class="bi me-2" width="333" height="48"></object>
+        </a>
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-dark me-2">Login</button>
+        </div>
+      </header>
+    </div>
+
+    <div class="container">
+      <div class="col-md-3">
+          <button type="button" class="btn btn-outline-dark me-2" @click="toggleScannerShowing">{{ scan_button_name }}</button>
+      </div>
+    </div>
+
+    <div v-if="show_scanner" class="container">
+      <QRCodeScanner :qrbox="250" :fps="10" style="width: 500px;" @result="onScan" />
+      <div id="qr-code-full-region"></div>
+      <h2 v-if="plant.uid"><b>{{ plant.uid }}</b> - {{ plant.genus }} {{ plant.species }}</h2>
+    </div>
+    
     
   </main>
 </template>
