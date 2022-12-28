@@ -42,6 +42,7 @@ class Plant(models.Model):
     source = models.CharField(max_length=50, blank=True)
     price = models.CharField(max_length=10, blank=True)
     description = models.TextField(blank=True)
+    user_number = models.CharField(max_length=10, blank=True)
     
     avatar = models.ImageField(upload_to=get_avatar_filename, blank=True)
 
