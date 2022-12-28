@@ -12,7 +12,8 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
       return {
           plant: '',
           show_scanner: false,
-          scan_button_name: 'Scan'
+          show_intro: true,
+          show_result: false,
       }
     },
     methods: {
@@ -28,21 +29,23 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
             const response = await axios.get('http://localhost:8000/api/plant/' + uid);
             // set the data returned as plants
             this.plant = response.data; 
-            console.log(this.plant);
+            this.show_scanner = false;
+            this.show_result = true;
         } catch (error) {
             // log the error
             console.log(error);
         }
       },
-      toggleScannerShowing (){
-        this.show_scanner = !this.show_scanner;
+      scanInit (){
         if (this.show_scanner){
-          this.scan_button_name = 'Hide scanner';
+          this.show_intro = true;
+          this.show_scanner = false;
+          this.show_result = false;
         } else {
-          this.scan_button_name = 'Scan again!';
+          this.show_intro = false;
+          this.show_scanner = true;
+          this.show_result = false;
         }
-        
-        
       }
     }
   }
@@ -62,7 +65,7 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
   <main>
     <!-- TheWelcome /-->
     
-
+    <!-- Header -->
     <div class="container">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
@@ -74,19 +77,78 @@ import QRCodeScanner from './components/QRCodeScanner.vue'
       </header>
     </div>
 
-    <div class="container">
-      <div class="col-md-3">
-          <button type="button" class="btn btn-outline-dark me-2" @click="toggleScannerShowing">{{ scan_button_name }}</button>
+    <div class="container text-center" style="height: 650px;">
+
+      <!--Intro -->
+      <div class="px-4 pt-3  my-4 text-center" v-if="show_intro">
+        <h1 class="display-4 fw-bold">Organize your plants</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        </div>
+        <div class="container px-5">
+          <img src="/src/assets/main_page.jpg" class="img-fluid border rounded-3 shadow-lg mb-2" alt="Plant Lib" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Scanner -->
+      <div class="px-4 pt-3  my-4 text-center" v-if="show_scanner" >
+        <div class="row justify-content-center my-3">
+          <div class="col-10 d-flex justify-content-center">
+            <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" />
+            <div id="qr-code-full-region"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <!-- <div class="px-4 pt-3 justify-content-center" v-if="show_result" > -->
+      <div class="px-4 pt-3  my-4 text-center" v-if="show_result" >
+        <div class="row justify-content-center my-3">
+          <div class="col-10 d-flex justify-content-center">
+            <div class="card justify-content-center  mb-3" style="max-width: 540px;" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/src/assets/plant_example.jpg" class="img-fluid rounded-start" alt="{{ plant.genus }}">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ plant.genus }}</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">UID: {{ plant.uid }}</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Buttons -->
+    <div class="container py-4 text-center" >
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button class="btn btn-lg px-4 btn-success" type="button" @click="scanInit">Scan</button>
+        <button class="btn btn-lg px-4 btn-outline-dark" type="button">Plants</button>
+        <button class="btn btn-lg px-4 btn-outline-dark" type="button">Labels</button>
       </div>
     </div>
 
-    <div v-if="show_scanner" class="container">
-      <QRCodeScanner :qrbox="250" :fps="10" style="width: 500px;" @result="onScan" />
-      <div id="qr-code-full-region"></div>
-      <h2 v-if="plant.uid"><b>{{ plant.uid }}</b> - {{ plant.genus }} {{ plant.species }}</h2>
+    <!-- Footer -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2022 Dmitry Natkha</p>
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <object data="/src/assets/plant-lib-logo-small.svg" class="bi me-2" width="46" height="46"></object>
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="https://github.com/Square-Pot/plant-lib" class="nav-link px-2 text-muted">GitHub</a></li>
+          <li class="nav-item"><a href="https://www.youtube.com/@SuccsInTheNorth" class="nav-link px-2 text-muted">YouTube</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+      </footer>
     </div>
-    
-    
+
   </main>
 </template>
 
