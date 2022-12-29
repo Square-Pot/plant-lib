@@ -3,6 +3,9 @@
 </template>
 
 <script>
+import {Html5QrcodeScanner} from "html5-qrcode"
+
+
 export default {
     props: {
         qrbox: {
