@@ -1,4 +1,6 @@
 <script setup>
+import IconMainLogo from './components/icons/IconMainLogo.vue'
+import IconMiniLogo from './components/icons/IconMiniLogo.vue'
 import Scan from './components/Scan.vue'
 </script>
 
@@ -39,7 +41,7 @@ import Scan from './components/Scan.vue'
     <div class="container">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <object data="/src/assets/plant-lib-logo.svg" class="bi me-2" width="333" height="48"></object>
+          <IconMainLogo />
         </a>
         <div class="col-md-3 text-end">
           <button type="button" class="btn btn-outline-dark me-2">Login</button>
@@ -67,7 +69,7 @@ import Scan from './components/Scan.vue'
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <p class="col-md-4 mb-0 text-muted">© 2022 Dmitry Natkha</p>
         <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-          <object data="/src/assets/plant-lib-logo-small.svg" class="bi me-2" width="46" height="46"></object>
+          <IconMiniLogo />
         </a>
         <ul class="nav col-md-4 justify-content-end">
           <li class="nav-item"><a href="https://github.com/Square-Pot/plant-lib" class="nav-link px-2 text-muted">GitHub</a></li>

@@ -63,7 +63,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
     <div class="px-4 pt-3  my-4 text-center" v-if="show_intro">
         <h1 class="display-4 fw-bold">Organize your plants</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <p class="lead mb-4">Organize the data about your plant collection and use an automatic tool to create labels with Data Matrices for quick identification of your plants.</p>
         </div>
         <div class="container px-5">
           <img src="/src/assets/main_page.jpg" class="img-fluid border rounded-3 shadow-lg mb-2" alt="Plant Lib" width="700" height="500" loading="lazy">
