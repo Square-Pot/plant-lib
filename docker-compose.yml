@@ -1,53 +1,17 @@
-version: "2.0"
+version: "3.9"
 services:
-  #PHP Service
-  # backend:
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
-  #   image: cloudsigma.com/php
-  #   container_name: backend
-  #   restart: unless-stopped
-  #   tty: true
-  #   environment:
-  #     SERVICE_NAME: backend
-  #     SERVICE_TAGS: dev
-  #   working_dir: /var/www/html/
-  #   volumes:
-  #     - ./:/var/www/html/
-  #     - ./php/laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
-  #   networks:
-  #     - app-network
 
-  frontend:
-    stdin_open: true
-    container_name: frontend
-    build:
-      context: ./frontend/plantlib
-      dockerfile: Dockerfile
-    volumes:
-      - /app/node_modules
-      - ./frontend/plantlib:/var/www/html/
-    networks:
-      - app-network
+  # Front 
+  front:
+    build: ./frontend/plantlib
+    ports:
+      - "8080:80"
 
   #Nginx Service
-  webserver:
-    depends_on:
-      # - backend
-      - frontend
-    build:
-      context: ./nginx
-      dockerfile: Dockerfile
-    container_name: webserver
-    restart: unless-stopped
-    tty: true
+  nginx:
+    build: ./nginx
     ports:
       - "80:80"
-    networks:
-      - app-network
+    links: 
+      - front
 
-#Docker Networks
-networks:
-  app-network:
-    driver: bridge
