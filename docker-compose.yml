@@ -2,21 +2,18 @@ version: "3.9"
 
 services:
 
-  # Back
+  # Backend
   back: 
     build: ./backend/PlantLib
     command: /usr/local/bin/gunicorn PlantLib.wsgi:application --bind 0.0.0.0:8000 --timeout 90 --workers=2
     volumes: 
       - ./backend/PlantLib/:/usr/src/app
-      # - /static:/static
-      # - /srv/tc_web_services_db/:/srv/tc_web_services_db/
+      - /static:/static
     expose: 
       - 8000
     restart: always
-    #  links:
-    #   - postgres:postgres
 
-  # Front 
+  # Frontend 
   front:
     build: ./frontend/plantlib
     ports:
@@ -33,6 +30,7 @@ services:
     links: 
       - front
     volumes:
+      - /static:/static
       - ./certbot/www:/var/www/certbot/:ro
       - ./certbot/conf/:/etc/nginx/ssl/:ro
 
