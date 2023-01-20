@@ -54,6 +54,9 @@ services:
       - POSTGRES_PASSWORD=db_password
       - POSTGRES_DB=plantlib
 
+volumes:
+  postgres_data:
+
 
 
 # https://mindsers.blog/post/https-using-nginx-certbot-docker/
