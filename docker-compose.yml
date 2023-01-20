@@ -3,6 +3,19 @@ version: "3.9"
 services:
 
   # Back
+  back: 
+    build: ./backen/PlantLib
+    command: /usr/local/bin/gunicorn TeamcenterService.wsgi:application --bind 0.0.0.0:8000 --timeout 90 --workers=2
+    volumes: 
+      - ./backend/PlantLib/:/usr/src/app
+      # - /static:/static
+      # - /srv/tc_web_services_db/:/srv/tc_web_services_db/
+    expose: 
+      - 8000
+    restart: always
+    # links:
+    #   - postgres:postgres
+
 
   # Front 
   front:
@@ -16,6 +29,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
+      - "8000:8000"
     restart: always
     links: 
       - front
