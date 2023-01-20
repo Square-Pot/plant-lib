@@ -13,9 +13,8 @@ services:
     expose: 
       - 8000
     restart: always
-    # links:
+    #  links:
     #   - postgres:postgres
-
 
   # Front 
   front:
@@ -43,6 +42,17 @@ services:
     volumes:
       - ./certbot/www:/var/www/certbot/:rw
       - ./certbot/conf/:/etc/letsencrypt/:rw
+
+  # Database
+  db:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    restart: always
+    environment:
+      - POSTGRES_USER=db_admin
+      - POSTGRES_PASSWORD=db_password
+      - POSTGRES_DB=plantlib
 
 
 

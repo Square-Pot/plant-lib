@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-temp-key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['galangal.ru', 'back', ]
 
 
 # Application definition
@@ -78,9 +78,13 @@ WSGI_APPLICATION = 'PlantLib.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    'default':{
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'plantlib',
+        'USER': 'db_admin',
+        'PASSWORD': 'db_password',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 
