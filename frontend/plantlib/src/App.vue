@@ -24,7 +24,7 @@ import Scan from './components/Scan.vue'
 </script>
 
 <style>
-    html {min-width: 450px}
+    html {min-width: 375px}
   </style>
 
 <template>
@@ -45,7 +45,7 @@ import Scan from './components/Scan.vue'
     <!-- TheWelcome /-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#"><IconMainLogo style="height: 40px"/></a>
+        <a class="navbar-brand" href="#"><IconMainLogo /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -82,7 +82,7 @@ import Scan from './components/Scan.vue'
 
 
     <!-- Scaner -->
-    <div class="container text-center" style="min-height: 650px;">
+    <div class="container text-center" style="min-height: 500px;">
 
       <Scan :scanning="scanningOn" />
 

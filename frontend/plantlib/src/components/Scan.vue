@@ -60,7 +60,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
 <template>
 
     <!--Intro -->
-    <div class="px-4 pt-3  my-4 text-center" v-if="show_intro">
+    <div class="px-4 my-3 text-center" v-if="show_intro">
         <h1 class="display-4 fw-bold">Organize your plants</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Organize the data about your plant collection and use an automatic tool to create labels with Data Matrices for quick identification of your plants.</p>
