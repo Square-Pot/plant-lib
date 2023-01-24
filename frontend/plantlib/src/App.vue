@@ -23,7 +23,12 @@ import Scan from './components/Scan.vue'
 
 </script>
 
+<style>
+    html {min-width: 450px}
+  </style>
+
 <template>
+  
   <header>
     <!--
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
@@ -34,40 +39,81 @@ import Scan from './components/Scan.vue'
 
   </header>
 
+  
+
   <main>
     <!-- TheWelcome /-->
-    
-    <!-- Header -->
-    <div class="container">
-      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" style="max-width: 100%" >
-          <IconMainLogo />
-        </a>
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn btn-outline-dark me-2">Login</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><IconMainLogo style="height: 40px"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </header>
-    </div>
+      </div>
+    </nav>
 
-    <div class="container text-center" style="height: 650px;">
+
+    <!-- Scaner -->
+    <div class="container text-center" style="min-height: 650px;">
 
       <Scan :scanning="scanningOn" />
 
     </div>
 
-    <!-- Buttons -->
+    <!-- Buttons desktop -->
     <div class="container py-4 text-center" >
-      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-        <button class="btn btn-lg px-4 btn-success" type="button" @click="scanToggle">Scan</button>
-        <button class="btn btn-lg px-4 btn-outline-dark" type="button">Plants</button>
-        <button class="btn btn-lg px-4 btn-outline-dark" type="button">Labels</button>
+      <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl ">
+        <div class="md-flex justify-content-between bg-light bg-gradient py-2">
+          <button class="btn btn-lg px-4 mx-2 btn-success" type="button" @click="scanToggle">Scan</button>
+          <button class="btn btn-lg px-4 mx-2 btn-outline-dark" type="button">Plants</button>
+          <button class="btn btn-lg px-4 mx-2 btn-outline-dark" type="button">Labels</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buttons Mobile -->
+    <div class="container py-4 text-center" >
+      <div class="fixed-bottom  d-block d-sm-block d-md-block d-lg-none ">
+        <div class="md-flex justify-content-between bg-light bg-gradient py-2 shadow-lg">
+          <button class="btn btn-lg px-4 mx-2 btn-success" type="button" @click="scanToggle">Scan</button>
+          <button class="btn btn-lg px-4 mx-2 btn-outline-dark" type="button">Plants</button>
+          <button class="btn btn-lg px-4 mx-2 btn-outline-dark" type="button">Labels</button>
+        </div>
       </div>
     </div>
 
     <!-- Footer -->
-    <div class="container">
+    <div class="container d-none d-lg-block ">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-muted">© 2022 Dmitry Natkha</p>
+        <p class="col-md-4 mb-0 text-muted">© 2023 Dmitry Natkha</p>
         <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <IconMiniLogo />
         </a>
@@ -77,6 +123,7 @@ import Scan from './components/Scan.vue'
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
         </ul>
       </footer>
+      
     </div>
 
   </main>
