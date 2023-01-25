@@ -47,7 +47,8 @@ class Plant(models.Model):
     avatar = models.ImageField(upload_to=get_avatar_filename, blank=True)
 
     def save(self, *args, **kwargs):
-        self.uid = create_uid(self.owner)
+        if not self.uid:
+            self.uid = create_uid(self.owner)
         super(Plant, self).save(*args, **kwargs)
         
 
