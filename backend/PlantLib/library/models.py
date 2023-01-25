@@ -16,7 +16,7 @@ def create_uid(owner):
 
 
 class Plant(models.Model):
-    uid = models.CharField(max_length=10, blank=True, editable=False) 
+    uid = models.CharField(max_length=10, blank=True) 
     owner = models.ForeignKey(User, on_delete=models.PROTECT)
     is_deleted = models.BooleanField(default=False)
 
