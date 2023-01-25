@@ -1,6 +1,7 @@
 import re
 import csv
 import datetime
+import pytz
 from django.contrib.auth.models import User
 from library.models import Plant
 
@@ -12,6 +13,8 @@ def run():
         next(reader)  # Advance past the header
 
         owner = User.objects.get(id=2)  # dntx
+
+        Plant.objects.all().delete()
 
         for row in reader:
             print(row)
@@ -75,8 +78,10 @@ def get_date(date_as_str):
     match2 = re.match(r'\d{2}\.\d{2}\.\d{4}', date_as_str)
     if match1:
         date_purchase = datetime.datetime.strptime(date_as_str, '%Y-%m-%d')
+        date_purchase = pytz.utc.localize(date_purchase)
     if match2:
         date_purchase = datetime.datetime.strptime(date_as_str, '%d.%m.%Y')
+        date_purchase = pytz.utc.localize(date_purchase)
     return date_purchase
 
 
