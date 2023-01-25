@@ -26,7 +26,7 @@ def run():
             if row[14]:
                 date_purchase = get_date(row[14])
                 if date_purchase:
-                    plant.date_purchase = date_purchase,
+                    plant.date_purchase = date_purchase
 
             if row[13]:
                 deta_seeding = get_date(row[13])
@@ -69,7 +69,11 @@ def run():
             if check_cell(row[18]):
                 plant.description = row[18].strip()
 
-            plant.save()
+
+            try:
+                plant.save()
+            except:
+                print('UID failed:', plant.uid)
 
 
 def get_date(date_as_str):
