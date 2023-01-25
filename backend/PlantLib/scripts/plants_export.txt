@@ -1,0 +1,430 @@
+UID|number|genus|species|subspecies|variety|cultivar|synonym|form|affinity|ex|information|source|seeding_date|purchase_date|pot_width|pot_height|soil|description
+940326|C101|Lithops|ruschiorum|||||||||Mesa Garden|2021-10-23||6||Земля:Минералка - 1:1|
+216208||Frithia|humilis|||||||||Kivuli|20.12.2020|12.09.2021||||от С.Комиссаровой
+783165|10b+c|Conophytum|calculus|||||||||Atomic Plant|2021-11-07|||||
+665331||Conophytum|minutum|||||||||V. Nesuta|2021-11-07|||||
+787031|C081A|Lithops|optica|||Rubra||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+894493|C393A|Lithops|bromfieldii||glaudinae|Embers||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+157524|C216|Lithops|julii|fulleri|rouxii|||||||Uwe Beyer|None|None|None|None||Заказ семян от 2021-03-04 22:14
+235767|C188|Lithops|werneri|||||||||Uwe Beyer|None|None|0|None||Заказ семян от 2021-03-04 22:14
+335530||Lithops|divergens|||Steenkampskraalrd||||||Atomic Plant|2021-10-23||6||Земля:Минералка - 1:1|
+643579|C352|Lithops|lesliei|lesliei|lesliei|||||||Uwe Beyer|2021-11-07|||||Заказ семян от 2021-03-04 22:14
+499648|C362|Lithops|bromfieldii||insularis|Sulphurea||||||Atomic Plant|2021-10-23||6||Земля:Минералка - 1:1|
+499102|LC5B|Lithops|lesliei|||Vivid Green||||||Uwe Beyer|2021-11-07|||||Заказ семян от 2021-03-04 22:14
+001712|L14-76|Lithops|karasmontana|karasmontana|karasmontana||lateritia|||||Uwe Beyer|2021-11-07|||||Заказ семян от 2021-03-04 22:14
+899037||Lithops|marmorata|||Polepsky Smaragd||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+434500|90|Conophytum|obcordellum|||mundum||||||Atomic Plant|2021-10-23||6||Земля:Минералка - 1:1|
+078206|C367|Lithops|gracilidelineata|||||||||Atomic Plant||||||
+121519||Lithops|otzeniana||||Brakfontein|||||Atomic Plant||||||
+965161|193|Conophytum|tantillum|inexpectatum||||||||Atomic Plant|2021-10-23||6||Lechuza Pon|
+371444|C042|Lithops|bromfieldii||insularis|||||||Atomic Plant|2021-11-07|||||
+496601|C206|Lithops|dinteri|dinteri||||||||Atomic Plant|2021-11-07|||||
+264806|SH531|Lithops|otzeniana|||||||||Atomic Plant|2021-11-07|||||
+000644|C412|Lithops|fulviceps||laevigata|||||||Atomic Plant||||||
+165014|203|Conophytum|uviforme|decoratum||||||||Atomic Plant|2021-10-23||6||Lechuza Pon|
+500366|C323|Lithops|julii|fulleri||||||||Atomic Plant||||||
+481937||Lithops|karasmontana|summitatum||||||||Atomic Plant||||||
+134099|PV227|Lithops|marmorata||||Smorenskadu|||||Atomic Plant||||||
+458209||Lithops|karasmontana|bella||||||||Atomic Plant|2021-11-07|||||
+719637|C189|Lithops|gracilidelineata||waldroniae|||||||Mesa Garden|2021-11-07|||||
+645674|C186|Lithops|schwantesii|schwantesii|urikosensis||kunjasensis|||||Atomic Plant|2021-10-23||6||Lechuza Pon|
+453288||Lithops|olivacea||nebrownii|Red Olive||||||Mesa Garden|2021-11-07|||||
+293195|SB2279|Lithops|ruschiorum|||||||||Mesa Garden|2021-11-07|||||
+148344|C166|Lithops|vallismariae|||Margarethae||||||Mesa Garden|2021-11-07|||||
+164532|SB635|Conophytum|obcordellum|||Ursprungianum|||||98f|Atomic Plant|2021-11-07|||||
+960453|SB1193|Conophytum|obcordellum|||Multicolor|||||239|Atomic Plant|2021-11-07|||||
+428803|ES3249|Anacampseros|rufescens||||||||An 3|Atomic Plant||||||
+944152|An219|Anacampseros|namaquensis||||Black Face Mountain|||||Atomic Plant||||||
+717134|C077|Lithops|schwantesii|||||||||Atomic Plant|2021-10-23||6||Lechuza Pon|
+703020|C230A|Lithops|villetii|deboeri||||||||Atomic Plant|2021-10-23||6||Земля:Минералка - 1:1|
+651829|An123|Anacampseros|namaquensis|||||||||Atomic Plant||||||
+682979|An86|Anacampseros|namaquensis|||||||||Atomic Plant||||||
+720385||Lithops|julii|julii||Harleqin||||||Atomic Plant|2021-10-23||6||Pussy-cat Минеральный|
+336242|An5|Anacampseros|lancifolia|||||||||Atomic Plant||||||
+623433|An52|Anacampseros|baeseckei|||||||||Atomic Plant||||||
+455443|C262|Lithops|gracilidelineata|||||||||Atomic Plant|2021-10-23||6||Pussy-cat Минеральный|
+941777|An8|Anacampseros|baeseckei|||||||||Atomic Plant||||||
+757857|An18|Anacampseros|comptonii|||||||||Atomic Plant||||||
+878662|An173|Anacampseros|filamentosa|filamentosa||||||||Atomic Plant||||||
+182390|40|Conophytum|jucundum|fragile||||||||Atomic Plant|2021-10-23||6||Lechuza Pon|
+502114||Lithops|dorothea|||||||AN||Atomic Plant|2021-10-23||6||Lechuza Pon|
+905063|CR1340|Conophytum|devium|stiriiferum||||||||Atomic Plant|2021-11-07|||||
+898920|TOK76|Lithops|pseudotruncatella|||||||||Mesa Garden|2021-10-23||6||Земля:Минералка - 1:1|
+054372||Lithops|optica|||Rubra F3||||||Mesa Garden|2021-10-23||6||Земля:Минералка - 1:1|
+922746|TS93|Lithops|olivaceae||nebrownii||Aggeneys|||||Atomic Plant|2021-10-23||6||Pussy-cat Минеральный|
+364226||Conophytum|fridrichiae|||||||||V. Nesuta|2021-11-07|||||
+860149|C128|Lithops|otzeniana|||||||||Atomic Plant|2021-10-23||6||Pussy-cat Минеральный|
+387913|CM142|Conophytum|verrucosum|||||||||V. Nesuta|2021-11-07|||||
+700077|TOK67|Lithops|amicorum||||||||TS 67|V. Nesuta||||||
+067101|85|Conophytum|minutum|||||||||Atomic Plant|2021-10-23||6||Seramis|
+092744|SH1323|Lithops|divergens||amethystina|||||||V. Nesuta||||||
+606362||Conophytum|taylorianum|ernianum||||||||A. Gubinsky||06.09.2020||||
+294235|146|Conophytum|pellucidum|||||||||Atomic Plant|2021-10-23||6||Seramis|
+169560|L14-72|Lithops|julii|fulleri|fulleri|Fullergreen|||||x L. salicola 'Malachite'|Uwe Beyer|2021-10-23|None|6|None|Земля:Минералка - 1:1|Заказ семян от 2021-03-04 22:14
+574242||Lithops|karasmontana|bella||Ironstone||||||V. Nesuta|2021-10-23||6||Pussy-cat Минеральный|
+940153||Lithops|dorothea|||Zorro||||M.G.||V. Nesuta|2021-10-23||6||Pussy-cat Минеральный|
+184395|C101|Lithops|ruschiorum|||||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+465789|C309|Lithops|gracilidelineata|||||||||V. Nesuta||||||
+017549|C374|Lithops|gracilidelineata|||||||||V. Nesuta||||||
+954869|C395|Lithops|aucampiae|||Jackson Jade||||||V. Nesuta||||||
+219911|C383|Lithops|gracilidelineata||brandbergensis|||||||V. Nesuta||||||
+763203|C394A|Lithops|gracilidelineata||brandbergensis|Yellow Green||||||V. Nesuta||||||
+695437|C373|Lithops|gracilidelineata||strei|||||||V. Nesuta||||||
+313231||Lithops|gracilidelineata||waldroniae|||||||V. Nesuta||||||
+474366||Lithops|julii x reticulata|||||||||V. Nesuta||||||
+130489||Lithops|karasmontana x salicola|||||||||V. Nesuta|2021-11-07|||||
+102786|C082|Lithops|karasmontana|eberlanzii||||||||V. Nesuta||||||
+812945|C204|Lithops|lesliei||rubrobrunea|||||||V. Nesuta||||||
+651608|C058A|Lithops|marmorata||framesii|Yellow Flower||||||V. Nesuta|2021-11-07|||||
+178783|C403|Lithops|olivacea|||||||||V. Nesuta||||||
+363600|LMP90A|Lithops|optica|||Rubra||||||V. Nesuta||||||
+483908|C350|Lithops|otzeniana|||||||||V. Nesuta||||||
+049151|C241|Lithops|ruschiorum|||||||||V. Nesuta||||||
+737592|SB806|Conophytum|pubescens|||||||||V. Nesuta|2021-11-07|||||
+005892|C351A|Lithops|salicola|||Malachite||||||Uwe Beyer|2021-10-23||6||Lechuza Pon|Заказ семян от 2021-03-04 22:14
+638050|L24-5|Lithops|marmorata|||||||Fritz|pale yellow flower|Uwe Beyer|2021-10-23||6||Lechuza Pon|Заказ семян от 2021-03-04 22:14
+327037||Conophytum|triebneri|||||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+479703|SB2146|Conophytum|fridrichiae|||||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+761550|C189A|Lithops|gracilidelineata||waldroniae|White Lady||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+305007||Lithops|aucampiae|euniceae||Bella Katty||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+864472|C287|Lithops|optica|||Rubra||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+714697|C206A|Lithops|dinteri|||Dintergreen||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+096765|86a|Conophytum|obcordellum|||Declinatum||||||Atomic Plant|2021-10-23||6||Pussy-cat Минеральный|
+655160|LC65A|Lithops|karasmontana|karasmontana|karasmontana||||||Signalberg form, excellent markings|Uwe Beyer|2021-10-23||6||Земля:Минералка - 1:1|Заказ семян от 2021-03-04 22:14
+393577|ALP313|Trichodiadema||||||||||D. Demin|05.10.2020|12.09.2021||||от С.Комиссаровой
+808481||Mestoklema|Macrorrhizum|||||||||K. Fillipenko|30.04.2020|12.09.2021||||от С.Комиссаровой
+594338||Lithops|gracilidelineta|gracilidelineta||||||||Р. Сагманов||18.04.2021||||
+847995|C128|Lithops|otzeniana|||||||||V. Nesuta|2021-11-07|||||
+509914|C334|Lithops|aucampiae|||||red||||A. Gubinsky||18.04.2021||||Гибрид Губинского
+826789|C294|Lithops|optica|||||||||Uwe Beyer||||||Заказ семян от 2021-03-04 22:14
+160384|C050|Lithops|hallii|||||||||Atomic Plant|2021-11-07|||||
+322924|C388|Lithops|steineckeana|||||||||Atomic Plant|2021-11-07|||||
+634020||Lithops|karasmontana|bella||||||||Atomic Plant|2021-11-07|||||
+895208|SB2181|Lithops|karasmontana|bella||||||||Mesa Garden|2021-11-07|||||
+691205||Fenestraria||||||||||Kivuli|20.12.2020|12.09.2021||||от С.Комиссаровой
+629094||Pleiospilos|nellii|||||||||Adenium Doma|05.10.2020|12.09.2021||||от С.Комиссаровой
+179975|KK1766|Matucana|madisoniorum||asterium|||||||Sorokins||12.08.2021||||35 р.
+937076|KK776|Matucana|aureiflora|||||||||Sorokins||12.08.2021||||30 р.
+979343||Aztekium|valdezii|||||||||V. Sidenko||09.10.2021||||20сем-200
+370202||Lithops||||||||||||07.05.2020||||
+603995||Lithops||||||||||||07.05.2020||||
+033007||Lithops|saliсola|||Sato's Violet||||||A. Peregudov||18.04.2021||||Купил на Mesa Market в Сокольниках
+867897|VN886|Aztekium|ritteri|||||rotundum|||Ignacio Zaragosa,NL|V. Nesuta|2021-11-07|2021-09-13|5|5|Lechuza Pon|
+575192|C272A|Lithops|meyeri|||Hammeruby||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+814314|VN890|Aztekium|hintonii||||||||Rio de San Jose,NL|V. Nesuta|||5|5|Lechuza Pon|
+230771|C132A|Lithops|terricolor|||Silwer Spurt's||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+076193|VG1170|Gymnocalycium|gertii|evelyniae||||||||Sorokins||12.08.2021||||25 р.
+124439|VG987|Gymnocalycium|frankianum|||||||||Sorokins||12.08.2021||||25 р.
+489284|TOM375|Gymnocalycium|gaponii|||||||||Sorokins||12.08.2021||||20 р.
+219121|P81|Gymnocalycium|intertextum|||||||||Sorokins||12.08.2021||||20 р.
+483624|P242|Gymnocalycium|mihanovichii||stenogonum|||||||Sorokins||12.08.2021||||25 р.
+074090|VG163|Gymnocalycium|saglionis|||||||||Sorokins||12.08.2021||||25 р.
+455211|VG271|Gymnocalycium|stellatum|||||||||Sorokins||12.08.2021||||25 р.
+619685|VG865|Gymnocalycium|zegarrae|||||||||Sorokins||12.08.2021||||25 р.
+394697|An249|Anacampseros|namaquensis||||Houmeb Myn|||||Atomic Plant||||||
+207678|An92|Anacampseros|lanceolata|||||||||Atomic Plant||||||
+999503|WR717|Blossfeldia|liliputana|||||||||Kivuli||22.04.2021||||
+843405||Mammillaria|boolii||||||||Фото ошибочное|M. Nikolaev||27.07.2021||||
+024339|SB1243|Mammillaria|hutchisoniana|||||||||M. Nikolaev||27.07.2021||||ягода
+127464|C370A|Lithops|karasmontana|eberlanzii||Avocadocream||||||V. Nesuta|2021-10-23||6||Pussy-cat Минеральный|
+430747||Lithops|slicola|||Sato's Violet|BACCHUS|||||V. Nesuta|2021-10-23||6||Pussy-cat Минеральный|
+039584|306|Conophytum||||||||||Atomic Plant|2021-10-23||6||Земля:Минералка - 1:1|
+249732|C406|Lithops|gesinae|||||||||Atomic Plant|2021-10-23||6||Земля:Минералка - 1:1|
+593622|74|Conophytum|maughanii|||||||||Atomic Plant|2021-10-23||6||Lechuza Pon|
+347663|L14-79|Lithops|karasmontana|||Smokey Peach||||||Uwe Beyer|2021-10-23|None|6|None|Lechuza Pon|Заказ семян от 2021-03-04 22:14
+976039|C132B|Lithops|terricolor|||Steamy Windows||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+635209||Lithops|salicola|||Maculata||GREY||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+878221||Lithops|verruculosa|||Rose Of Texas||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+117438|C345A|Lithops|terricolor|||Specked Gold||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+474664||Lithops|aucampiae|||Rudesheim Ruby|FIREBRANDT|||||V. Nesuta|2021-10-23|`|6||Lechuza Pon|
+215593|C102|Lithops|ruschiorum||nellii|||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+078337||Escobaria|abdita|||||||||V. Sidenko|2021-11-07|09.10.2021|5||Lechuza Pon|5-80
+230193|SB623|Conophytum|obcordellum|||Giftbergense||||||A. Gubinsky||06.09.2020|5|5|Lechuza Pon|
+054556|SB1343|Titanopsis|hugo-schlechteri|||||||||A. Mikhaltsov|03.03.2021|12.09.2021||||от С.Комиссаровой
+570353|SH379|Ophthalmophyllum|lydiae|||Haramoepense||||||A. Gubinsky||06.09.2020||||
+413301||Faucaria|tuberculosa|||||||||Adenium Doma|28.08.2020|12.09.2021||||от С.Комиссаровой
+732589|SH588|Lapidaria|margaretae|||||||||A. Goncharova|24.08.2020|12.09.2021||||от С.Комиссаровой
+703825||Frithia|pulchra|||||||||Kivuli|20.12.2020|12.09.2021||||от С.Комиссаровой
+896935|C238|Lithops|vallis-mariae|||Margarethae||||||V. Nesuta|2021-10-23||6||Seramis|
+894658|C281|Lithops|vallis-mariae|||||||||V. Nesuta|2021-10-23||6||Seramis|
+719460|C142B|Lithops|hookeri|||||||||V. Nesuta|2021-10-23||6||Земля:Минералка - 1:1|
+398448|279|Conophytum|obcordellum||ceresianum|||||||Atomic Plant|2021-11-07|||||
+374184|SB1066|Conophytum|longum|||||||||V. Nesuta|2021-11-07|||||
+612947|C261|Lithops|gracilidelineata|||||||||V. Nesuta||||||
+913724|C394|Lithops|gracilidelineata||brandbergensis|||||||V. Nesuta||||||
+344737||Lithops|julii x salicola|||||||||V. Nesuta||||||
+245130|C017|Lithops|lesliei||rubrobrunea|||||||V. Nesuta||||||
+650190|PV992|Lithops|olivacea|||||||||V. Nesuta||||||
+673482||Lithops|schwantesii||rugosa|Shagreen||||||V. Nesuta||||||
+024373|C388|Lithops|steineckeana|||||||||V. Nesuta||||||
+613163|C167|Lithops|vallis-mariae|||Margarethae||||||V. Nesuta||||||
+451794|C054|Lithops|aucampiae|euniceae|fluminalis|||||||V. Nesuta||||||
+705937|C368|Lithops|bromfieldii|||||||||V. Nesuta||||||
+153732|C341|Lithops|lesliei|||||KIMBERLII||||V. Nesuta||||||
+741058|LMP65|Lithops|lesliei|||||KIMBERLII||||V. Nesuta||||||
+468539|C306|Lithops|pseudotruncatella||archerae|||||||V. Nesuta||||||
+657112|C060|Lithops|vallis-mariae|||||||||V. Nesuta||||||
+807943|GF271|Frailea|asterioides|||||||||M. Nikolaev||27.07.2021||||
+562292|C281A|Lithops|vallis-mariae|||Walley Girl||||||V. Nesuta||||||
+665790|HS121|Sulcorebutia|rauschii|||||||||V. Sidenko|2021-11-07|09.10.2021|5|5|Lechuza Pon|10 50
+989344|SB631|Conophytum|lithopsoides|||kennedyi|||||48|Atomic Plant|2021-10-23||6||Pussy-cat Минеральный|
+871122||Gymnocalycium|nataliae||||||VG-709|||M. Nikolaev||27.07.2021||||
+047591|203.1|Gymnocalycium|nataliae||||||||TOM 0203.1|M. Nikolaev||27.07.2021||||
+204802|s14-20|Astrophytum|myriostigma|||Onzuka||||||Mai.baan.taan|2021-11-07|10.08.2021|6|6|Lechuza Pon|
+602166|VN824|Mammillaria|perezdelarosae||anderson|||longispina|||Santa Barbara, Gto.|V. Nesuta|2021-11-07|2021-09-13|5|5|Lechuza Pon|
+870090|VN900|Obregonia|denegrii||||||||Compuertas, Tam.|V. Nesuta|2021-11-07|2021-09-13|5|5|Lechuza Pon|
+723925||Lithops|karasmontana|||||red top||||WalawalaStudio|02.12.2020|||||etsy.com
+716519|SB291|Thelocactus|hexaedrophorus|||||||||V. Sidenko|2021-11-07|09.10.2021|5|5|Lechuza Pon|10 30 большой бел цв
+186994|VN837|Thelocactus|heterochromus||||||||Rio Nazas II, Dur.|V. Nesuta|2021-11-07|2021-09-13|5|2|Lechuza Pon|
+652060|s20-20|Astrophytum|asterias|||Kikko||||||Mai.baan.taan|2021-11-07|10.08.2021|6|6|Lechuza Pon|
+959440||Lithops|dorotheae|||||||||WalawalaStudio|02.12.2020|||||etsy.com
+027552|s23-10|Astrophytum|asterias||purple|||||||Mai.baan.taan|2021-11-07|10.08.2021|||Lechuza Pon|
+160067|C395|Lithops|aucampiae|||Jackson's Jade||||||WalawalaStudio|02.12.2020|||||etsy.com
+363718||Fenestraria||||||||||Kivuli|20.12.2020|12.09.2021||||
+116872|RUS453|Mammillaria|luethyi|||||||||V. Sidenko|2021-11-07|09.10.2021|5|5|Lechuza Pon|5 150
+689176|C350|Lithops|otzeniana|||||||||WalawalaStudio|02.12.2020|||||etsy.com
+664234|s7-10|Astrophytum|asterias|||||||||Mai.baan.taan|2021-11-07|10.08.2021|6||Lechuza Pon|
+528941|s22-10|Astrophytum|сapricorne|||Buffalo||||||Mai.baan.taan|2021-11-07|10.08.2021|5|5|Lechuza Pon|
+207626||Titanopsis|hugo-schlechteri|||||||||A. Mikhaltsov|03.03.2021|12.09.2021||||
+164700||Titanopsis|hugo-schlechteri|||||||||A. Mikhaltsov|03.03.2021|12.09.2021||||
+131189||Aeonium|kiwi|||||||||G. Aristov||02.07.2020||||Куплен за 500 руб.
+559785||Coryphantha|maiz-tablasensis|||||||||K. Avakov||05.09.2021||||Куплен за 200 руб
+912804||Haworthia|cooperi truncata|||||||||Y. Piterskaya||12.08.2020||||
+445342||Gymnocalycium|prochazkianum|||||||||D. Demin||04.09.2021||||Куплен за 250 руб. на CactusFest
+365926||Sedum|morganianum|||||||||||30.05.2020||||Черенок украден в магазине цветов
+397431||Opuntia|monacantha||variegata|||||||IKEA||25.05.2013||||
+442904|VG242|Gymnocalycium|riojense|||||||||Sorokins||12.08.2021||||Диаметр: 15mm
+513216||Crassula||||Buddha’s Tample||little size||||G. Aristov||02.07.2020||||Куплен за 500 руб.
+637889|VG1242|Gymnocalycium|esperanzae|||||||||Sorokins||12.08.2021||||Диаметр: 15mm
+021768||Echinofossulocactus|pentacanthus|||||||||M. Nikolaev|01.03.2016|27.05.2021||||
+987355|WR718|Gymnocalycium|mucidum||ferrari|||||||Sorokins||12.08.2021||||Диаметр: 15mm
+156037||Graptopetalum|mirinae|||||||||||21.07.2020||||
+243748||Pachyveria||||Blue Mist||||||G. Aristov||02.07.2020||||Куплен за 450 руб.
+659787|P131B|Gymnocalycium|occultum|||||||||Sorokins||12.08.2021||||Диаметр: 15mm
+684852||Pachyphytum|oviferum|||Moonstone||pink||||G. Aristov||20.05.2020||||Куплена за 1200 руб.
+920881||Echinopsis|subdenudata|||||||||||27.06.2020||||Получил в подарок от сестры Оли
+051580|VG370|Gymnocalycium|spegazzinii||punilense|||||||K. Avakov||05.09.2021||||Куплен за 200 руб
+306310||Crassula||||Morgan’s Beauty||||||G. Aristov||20.05.2020||||Куплен за 450 руб.
+831458|SB1449|Glandulicactus|mathssonii|||||||||K. Avakov||05.09.2021||||Куплен за 150 руб
+292863||Sedum|multiceps|||||||||G. Aristov||20.05.2020||||Куплена за  650 руб.
+977433||Strombocactus|disciformis|||||||||D. Demin||04.09.2021||||Куплен за 250 руб. на CactusFest
+244343||Gymnocalycium|vatteri|||||||||||06.09.2020||||Куплен на Cactus Fest
+910132||Sedeveria|litizia|||||||||G. Aristov||02.07.2020||||Куплен за 500 руб.
+171339||Astrophytum|asterias|||Superkabuto||||||M. Nikolaev|01.05.2017|27.07.2021||||Куплен за 350 руб
+750420|VG671|Gymnocalycium|riojense|||||||||Sorokins||12.08.2021||||Диаметр: 15mm
+533640||Haworthia|attenuata|||||||||G. Aristov||20.05.2020||||Подарок при заказе
+121514|P124|Gymnocalycium|triacanthum|||||||||Sorokins||12.08.2021||||Диаметр: 20mm
+602241||Haworthia|maughanii|||Aurora||||||perfect-seller-shop||26.06.2020||||Куплен на ebay за US $16.14 (Китай)
+952539|VG052|Gymnocalycium|stellatum||kleinianum|||||||Sorokins||12.08.2021||||Диаметр: 15mm
+922341||Sedum|adolphii|||||||||G. Aristov||20.05.2020||||Куплен за 200 руб.
+041207||Gymnocalycium|vatteri|||Monospinum||||||M. Nikolaev||27.07.2021||||
+537440||Pachyveria|pachyphytoides|||||||||G. Aristov||02.07.2020||||Подарок при заказе
+238672||Gasteria|armstrongii|||||||||G. Aristov||02.07.2020||||Подарок при заказе
+073287|VG302|Gymnocalycium|vatteri||altautiense|||||||M. Nikolaev|01.08.2017|23.06.2021||||
+324341|LB811|Gymnocalycium|denudatum|||||||||A. Repetunov|06.10.2019|23.06.2021||||
+465416||Astrophytum|asterias||hybrid|||||||||06.09.2020||||Куплен на Cactus Fest
+080540|P240|Gymnocalycium|pflanzii|||||||||A. Repetunov|16.01.2020|23.06.2021||||Из семян от Sorokinsх
+164023||Astrophytum|myriostigma||fukuryu|||||||D. Demin||18.04.2021||||Куплен на 1000 руб. на Mesa Market
+382686||Matucana|madisoniorum||asterium|||||||M. Nikolaev|01.06.2015|27.07.2021||||Куплен за 500 руб
+623452|P401|Frailea|pumila|||||||||M. Nikolaev|01.03.2016|27.05.2021||||Подарок при заказе
+760902||Espostoa|lanata|||||||||IKEA||25.05.2013||||Более известен под именем Глеб
+361577||Aeonium|sunburst|||||cristata, variegata||||G. Aristov||02.07.2020||||Куплен за 850 руб.
+395008||Astrophytum|asterias||hybrid|||||||M. Nikolaev|01.06.2019|27.05.2021||||Подарок при заказе
+139778|AH344|Gymnocalycium|denudatum|||||||||M. Nikolaev|01.03.2016|27.07.2021||||Куплен за  250 руб
+130049||Gymnocalycium|spegazzinii|||Feduka||||||A. Repetunov|10.03.2020|23.06.2021||||Культивар с очень длинной колючкой. Семена от D. Deminа
+279227||Gymnocalycium|denudatum|||Suba||||||M. Nikolaev|02.07.2020|23.06.2021||||
+572329|P127|Gymnocalycium|baldianum|||||||||M. Nikolaev|01.11.2015|23.06.2021||||
+643756|RUS366|Gymnocalycium|gibbosum||chubutense|||||||M. Nikolaev|01.06.2015|27.07.2021||||
+328686|VG675|Gymnocalycium|ritterianum|||||||||M. Nikolaev|01.05.2017|23.06.2021||||
+101222||Gymnocalycium|pungens|||||||||A. Repetunov|23.01.2020|23.06.2021||||Подарок при заказе
+993321||Crassula|ovata|||||||||||01.10.2006||||
+735590||Astrophytum|myriostigma||potosinum|||||||M. Nikolaev|01.06.2018|23.06.2021||||Подарок при заказе
+595397|RUS375|Gymnocalycium|hyptiacanthum||schatzlianum|||||||M. Nikolaev|01.05.2017|27.07.2021||||BA RUS 375, Куплен за 250 руб
+981601|VS161|Gymnocalycium|berchtii|||||||||M. Nikolaev|01.03.2016|27.05.2021||||
+129686||Haworthia|moonstone|||||||||Y. Piterskaya||12.08.2020||||
+963504||Sedum|rubrotinctum|||Аurora||||||||21.07.2020||||
+062017||Echeveria||||Cupid||||||G. Aristov||02.07.2020||||Куплен за 700 руб.
+737318|VG956|Gymnocalycium|cardenasianum|||||||||K. Avakov||05.09.2021||||Куплен за 200 руб
+465479|HTH82a|Gymnocalycium|schickendantzii||bergeri|||||||K. Avakov||05.09.2021||||Куплен за 350 руб
+343242|P81|Gymnocalycium|intertextum|||||||||Sorokins||12.08.2021||||Диаметр: 50mm
+874045||Gymnocalycium|horstii|||||||||||01.01.2000||||Точная дата приобретения не известнаа
+970217||Haworthia|truncata|||||||||G. Aristov||20.05.2020||||Куплена за 750 руб.
+803545|TCG1101|Turbinicarpus|panarottoi|||||||||M. Nikolaev|01.05.2017|23.06.2021||||
+311547||Pachyphytum|compactum|||||||||||21.07.2020||||
+359855|87|Conophytum|obcordllum|||Germanum||||||Atomic Plant|2021-11-07|||||
+609213|GF271|Frailea|asterioides|||||||||M. Nikolaev|01.06.2018|27.05.2021||||
+257354|C143B|Lithops|schwantesii|||||TRIEBNERI||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+891310||Adenium|arabicum|||Tiny Ding Dong||||||S. Komissarova|20.10.2020|12.09.2021||||
+321792||Adenium|arabicum|||Brazilian||||||S. Komissarova|10.03.2020|12.09.2021||||
+986343|PV230|Dinteranthus|microspermus||puberulus|||||||V. Nesuta||13.09.2021||||
+689533|C054|Lithops|aucampiae||fluminalis|||||||V. Nesuta||13.09.2021||||
+625617||Lithops|aucampiae||Bella Katty|||||||V. Nesuta||13.09.2021||||
+664394|C368|Lithops|bromfieldii|||||||||V. Nesuta||13.09.2021||||
+672929||Lithops|bromfieldii|||||||||V. Nesuta|2021-11-07|13.09.2021||||Welgevonden Farm
+585132|SH389|Lithops|comptonii|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+780292|C347|Lithops|comptonii||weberi|||||||V. Nesuta|2021-11-07|13.09.2021||||
+572313|C206A|Lithops|dinteri|||Dintergreen||||||V. Nesuta||13.09.2021||||
+138855|F357|Lithops|dorothea|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+282041|C202|Lithops|divergens|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+220197|C269|Lithops|divergens|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+612742|C371|Lithops|franciscii|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+415594|394A|Lithops|gracilidelineata||brandbergensis|Yellow Green||||||V. Nesuta|2021-11-07|13.09.2021||||(393A)
+647256|C189|Lithops|gracilidelineata||waldroniae|||||||V. Nesuta|2021-11-07|13.09.2021||||
+364402|C189A|Lithops|gracilidelineata||waldroniae|White Lady||||||V. Nesuta|2021-11-07|13.09.2021||||
+042362|C090|Lithops|hallii|||||||||V. Nesuta||13.09.2021||||
+771119||Lithops|hallii x jull|||||||||V. Nesuta||13.09.2021||||
+399540|PV1039|Lithops|helmutii|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+779694|C397|Lithops|hermetica|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+820226||Kalanchoe|humilis|||||||||||11.04.2021||||Подарок от Н.Балыковой на ДР
+114731|C235|Lithops|herrei|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+760494||Lithops|karas. x salicola|bella||Ironstone||||||V. Nesuta||13.09.2021||||
+551661|C370A|Lithops|karasmontana|eberlanzii||Avocadocream||||||V. Nesuta|2021-11-07|13.09.2021||||
+452524||Lithops|karas. x salicola|||||||||V. Nesuta||13.09.2021||||
+183825|C015A|Lithops|lesliei||hornii|Greenhorn||||||V. Nesuta||13.09.2021||||
+939750|058A|Lithops|marmorata||framesii|||||||V. Nesuta||13.09.2021||||
+003329|CH1884|Lithops|naureeniae|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+357094||Lithops|otzeniana|||Cesky' Grana't||||||V. Nesuta|2021-11-07|13.09.2021||||
+799794|C104|Lithops|pseudotruncatella||archerae|||||||V. Nesuta||13.09.2021||||
+617797|CH1934|Lithops|pseudotruncatella|dendritica||||||||V. Nesuta|2021-11-07|13.09.2021||||Aub
+037784|C101|Lithops|ruschiorum|||||||||V. Nesuta|2021-11-07|13.09.2021||||
+885093||Lithops|salicola|||Maculata||||||V. Nesuta||13.09.2021||||
+101930|C345A|Lithops|terricolor|||Specked Gold||||||V. Nesuta||13.09.2021||||
+147695|C132B|Lithops|terricolor|||Steamy Windows||||||V. Nesuta||13.09.2021||||
+419966||Lithops|verruculosa|||Rose of Texas||||||V. Nesuta|2021-11-07|13.09.2021||||
+871470||Lithops|gesinae x gracil.|||Talisman||||||V. Nesuta|2021-11-07|13.09.2021||||
+711480||Conophytum|burgeri|||||||||ZW|2021-11-07|12.11.2021||||Куплен за 22 юаня
+006971||Lithops|julii|||Kikusiyo Giyoku||||||ZW|2021-11-07|12.11.2021||||Куплен за 36 юаней
+691795||Lithops|julii|||Kikukaseki||||||ZW|2021-11-07|12.11.2021||||Куплен за 36 юаней
+117030|F109R|Lithops|julii|julii||||||||ZW|2021-11-07|12.11.2021||||Куплен за 36 юаней
+055821||Lithops|julii|||Sakkie’s Green||||||ZW|2021-11-07|12.11.2021||||Куплен за 72 юаня
+450643|VG1170|Gymnocalycium|gertii|evelyniae||||||||Sorokins||12.08.2021||||Семена куплены за 25 р.
+405277|VG987|Gymnocalycium|frankianum|||||||||Sorokins||12.08.2021||||Семена куплены за 25 р.
+608631|TOM375|Gymnocalycium|gaponii|||||||||Sorokins||12.08.2021||||Семена куплены за 20 р.
+709680|P81|Gymnocalycium|intertextum|||||||||Sorokins||12.08.2021||||Семена куплены за 20 р.
+178447|P242|Gymnocalycium|mihanovichii||stenogonum|||||||Sorokins||12.08.2021||||Семена куплены за 25 р.
+045806|VG163|Gymnocalycium|saglionis|||||||||Sorokins||12.08.2021||||Семена куплены за 25 р.
+734284|KK1766|Matucana|madisoniorum||asterium|||||||Sorokins||12.08.2021||||Семена куплены за 35 р.
+779251|KK776|Matucana|aureiflora|||||||||Sorokins||12.08.2021||||Семена куплены за 30 р.
+065900|VG271|Gymnocalycium|stellatum|||||||||Sorokins||12.08.2021||||Семена куплены за 25 р.
+819842|VG865|Gymnocalycium|zegarrae|||||||||Sorokins||12.08.2021||||Семена куплены за 25 р.
+636699|PV1039|Lithops|helmutii|||||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+472544|C363|Lithops|fulviceps|||Aurea||||||Atomic Plant|2021-10-23||6||Lechuza Pon|
+240551||Lithops|terricolor|||Green Sandpoort||||||N. Schelkunova|2021-10-23||6||Lechuza Pon|1313,81, С.Комиссарова
+787873|C385|Lithops|gracilidelineata|||||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+295513|PV986|Lithops|olivacea|||||||||V. Nesuta|2021-10-23||6||Lechuza Pon|
+639711||Adenium|arabicum|||Desert Night Fork||||||S. Komissarova|10.03.2020|12.09.2021||||
+796979|VG533|Gymnocalycium|rosae|||||||||Sorokins||2021-08-12|||Lechuza Pon|Получен в подарок при заказе
+210004||Lithops||||Hotlips||||||ZW|2021-11-07|12.11.2021||||re-selected strain, large lips, 43 юаня
+270435|C128A|Lithops|otzeniana|||Aquamarine||||M.G.||V. Nesuta|2021-11-07|13.09.2021||||
+103059|C233|Lithops|geyeri||hillii|||||||V. Nesuta|2021-11-07|13.09.2021||||
+100000|RS 618 |Ariocarpus|bravoanus||||||||Nuňez, SLP|Roman Stanik|30.01.2022|||||
+100001||Aztekium|valdezii|||||||||Roman Stanik|30.01.2022|||||
+100002|RS 1941 |Copiapoa|leonensis||humilis||||||Mina Leones-Caldera|Roman Stanik|30.01.2022|||||
+100003|MZ 567|Coryphantha|elephantidens||||||||Xochicalco, MOR|Roman Stanik|30.01.2022|||||
+100004|RS 914 |Coryphantha|bumamma||||||||Zumpango, Guerero, big plants|Roman Stanik|30.01.2022|||||
+100005|RS 3050|Discocactus|horstii||||||||Grao Mogol, Min.Gerais|Roman Stanik|30.01.2022|||||
+100006|RS 2787|Escobaria|abdita||||||||Laguna la Leche,COAH|Roman Stanik|30.01.2022|||||
+100007|SB 423|Escobaria|minima||||||||Brewster Co.TX |Roman Stanik|30.01.2022|||||
+100008|Tom 09-400-1|Gymnocalycium|nataliae||||||||Est.La Noria, Arg.|Roman Stanik|30.01.2022|||||
+100009|RS 1795|Gymnocalycium|bruchii||suzanae||||||Parador El Condor, Cor.|Roman Stanik|30.01.2022|||||
+100010|VM 758|Lophophora|alberto-vojtechii||||||||Vanegas SLP|Roman Stanik|30.01.2022|||||
+100011|RS 1193 |Lophophora|diffusa||||||||(robust), Peňa Miler, QRO.|Roman Stanik|30.01.2022|||||
+100012|RS 404|Lophophora|fricii|||||albiflora|||(white fl.), Viesca, COAH.|Roman Stanik|30.01.2022|||||
+100013|RS 1184A|Lophophora|koehresii||||||||San Francisco, SLP|Roman Stanik|30.01.2022|||||
+100014|MZ 376|Mammillaria|coahuilensis||||||||(Porfiria), Parras, COAH.|Roman Stanik|30.01.2022|||||
+100015|RS 519|Mammillaria|lasiacantha||||||||(dense),Hipolito, COAH.,|Roman Stanik|30.01.2022|||||
+100016|RS 082|Mammillaria|plumosa||||||||La Rinconada, N.L.|Roman Stanik|30.01.2022|||||
+100017||Mammillaria|sanchez-mejoradae||||||||Municipio Galeana, NL|Roman Stanik|30.01.2022|||||
+100018||Mammillaria|bertholdii||||||||S.J.Lachiguiri, OAX, ( white, new species)|Roman Stanik|30.01.2022|||||
+100019|RS 941 |Mammillaria|humboldtii||||||||white, soft spines, Gilo, HGO.|Roman Stanik|30.01.2022|||||
+100020|MZ 211|Mammillaria|solisioides||||||||(white, big yellow fl.) Petlalzingo,OAX.|Roman Stanik|30.01.2022|||||
+100021|RS 624|Turbinicarpus|bonatzii||||||||Santo Domingo, SLP|Roman Stanik|30.01.2022|||||
+100022|MZ 039|Turbinicarpus|valdezianus||||||||Saltillo, COAH.|Roman Stanik|30.01.2022|||||
+100023|MZ 732|Turbinicarpus|pseudopectinatus||||||||Altamira, TAM.|Roman Stanik|30.01.2022|||||
+749070||Obregonia|denegrii||||||||сеянец от Светланы Комиссаровой|D. Demin|20.11.2021|||||
+818069||Ariocarpus|retusus||||||||сеянец от Светланы Комиссаровой|D. Demin|18.11.2021|||||
+858383||Ariocarpus|kotchoubeanus||||||||сеянец от Светланы Комиссаровой|D. Demin|18.11.2021|||||
+810545||Ariocarpus|trigonus||||||||сеянец от Светланы Комиссаровой|D. Demin|18.11.2021|||||
+488155||Sulcorebutia|purpurea||||||||сеянец от Светланы Комиссаровой|D. Demin|20.11.2021|||||
+104723||Turbinicarpus|macrochele||||||||сеянец от Светланы Комиссаровой|D. Demin|20.11.2021|||||
+110877||Turbinicarpus|rioverdensis||||||||сеянец от Светланы Комиссаровой|D. Demin|20.11.2021|||||
+555525||Turbinicarpus|schwartzii||||||||сеянец от Светланы Комиссаровой|D. Demin|20.11.2021|||||
+872116||Echinocereus|rigidissimus||rubispinus||||||сеянец от Светланы Комиссаровой|Azimchon|23.09.2021|||||
+996892||Escobaria|minima||||||||сеянец от Светланы Комиссаровой|Sidenko|08.10.2021|||||
+670955||Mammillaria|hutchisoniana||||||||сеянец от Светланы Комиссаровой|Roman Stanik|20.02.2022|||||
+198680||Gymnocalycium|||||||||сеянец от Светланы Комиссаровой|Azimchon|18.09.2021|||||
+448559||Pseudolithos|cubiformis|||||||||Koehres||||||
+839161||Albuca|namaquensis|||||||||Koehres||||||
+551388|H.343|Haworthia|pygmaea|cristallina|||||||correcta ex Hosogai|Mikhalcov|28.12.2021|||||
+678000||Haworthia|springbokvlakensis|||||||||Mikhalcov|28.12.2021|||||
+357569||Gasteria|'Bob Taylor’ x disticha|||||||||Mikhalcov|28.12.2021|||||
+734087||Haworthia|herbacea hybr|||||||||Gorbachev|13.01.2022|||||
+696699|VVG 35|Haworthia||||||||||Gorbachev|13.01.2022|||||
+662078||Haworthia|truncata||Maughanii||||||Japan|Mikhalcov|28.12.2021|||||
+129848||Haworthia|H.277 x H.300||||||||(correcta ex Hosogai * springbokvllakensis) x (H.300 var. * springbok)|Mikhalcov|28.12.2021|||||
+280405||Haworthia|truncata|||||||||D. Demin|14.11.2021|||||
+540964||Haworthia|cooperi v. dielsiana2 X obtusa ‘Purple Dodson’|||||||||Gorbachev|13.01.2022|||||
+903616||Haworthia|venusta|||'Shirayuki Emaki’||||||Gorbachev|13.01.2022|||||
+877676|JDV90|Haworthia|mutica|||||||||Gorbachev|13.01.2022|||||
+451634||Haworthia|H.274 x H.266||||||||(pygmaea * truncata) splendens X (truncata crass * Hakuma)|Mikhalcov|28.12.2021|||||
+595128||Haworthia|retusa||mutica|||variegata||||||||||
+166892||Lithops|karasmontana |karasmontana |aiaisensis |Orange Ice||||||ZW||||||
+660620|C 369A|Lithops|karasmontana |eberlanzii ||Purper||||||ZW||||||
+473399||Lithops|hookeri ||dabneri |Annarosa||||||ZW||||||
+235996||Lithops|karasmontana |karasmontana |lericheana |Lerichegreen||||||ZW||||||
+310944|C 1A|Lithops|lesliei |lesliei |venteri|Ventergreen||||||ZW||||||
+410219|C 245|Lithops|pseudotruncatella |dendritica ||Farinosa||||||ZW||||||
+890245||Conophytum|burgeri||||||||3802|MSG||||||
+349514||Conophytum|burgeri||||||||3803|MSG||||||
+604363||Conophytum|chrisocruxum||||||||3804|MSG||||||
+950178||Conophytum|hammeri||SE Eksteenfontein||||||3807|MSG||||||
+237475|MRO 117|Conophytum|hammeri||||||||3808|MSG||||||
+746056|MRO 72|Conophytum|maughanii|latum|||||||3810|MSG||||||
+107107|ARM 974|Conophytum|maughanii|maughanii|||||||3811|MSG||||||
+536910||Conophytum|pellucidum (pardicolor)||||||||3813|MSG||||||
+999980|MRO 126|Conophytum|stephanii|helmutii|||||||3814|MSG||||||
+239992|TJ 62|Conophytum|subterraneum||||||||3815|MSG||||||
+488427||Dinteranthus|inexpectatus||||||||3821|MSG||||||
+327439|SB 1186|Dinteranthus|microspermus|puberulus|||||||3823|MSG||||||
+634624||Dinteranthus|vanzylii|||Emerald|||||3825|MSG||||||
+610876|MRO 209|Diplosoma|luckhoffii||||||||3826|MSG||||||
+952697||Faucaria|tigrina||||||||3838|MSG||||||
+433949||Lithops|broomfieldii|||White Nymph|||||3861|MSG||||||
+159602||Lithops|dorotheae|||Zorro|||||3864|MSG||||||
+988089|Ex C189|Lithops|gracilidelineata|gracilidelineata|waldroniae||||||3873|MSG||||||
+645314||Lithops|hallii|||Sakkie's Green|||||3876|MSG||||||
+417791||Lithops|lesliei||venteri|Ventergreen|||||3895|MSG||||||
+791320|Ex C212|Lithops|meyeri||||||||3897|MSG||||||
+118953||Lithops|olivacea|||Pink form|||||3898|MSG||||||
+302464|Ex C403|Lithops|olivacea||nebrownii||||||3899|MSG||||||
+695692||Lithops|olivacea||nebrownii|Red Olive|||||3900|MSG||||||
+540596||Lithops|pseudotruncatella|pseudotruncatella|riehmerae|Green Ivory|||||3903|MSG||||||
+208180||Mesembryanthemum|crystallinum||||||||3912|MSG||||||
+587298||Monilaria|moniliformis||||||||3913|MSG||||||
+286788||Trichodiadema|densum||||||||3933|MSG||||||
+924500||Lithops|lesliei|||Fred's Redhorn|||||3940|MSG||||||
+801351||Lithops|lesliei|||Bronzino|||||3941|MSG||||||
+604139||Lithops|olivacea||nebrownii|Red Olive|||||3942|MSG||||||
+853954|Ex C406|Lithops|gesinae||||||||3943|MSG||||||
+985868|Ex C272A|Lithops|meyeri|||Hammeruby|||||3944|MSG||||||
+752942|Ex C388|Lithops|steineckeana||||||||3947|MSG||||||
+279009|MRO 137|Conophytum|angelicae||||||||3949|MSG||||||
+203353||Conophytum|brunneum||||||||3953|MSG||||||
+514575||Conophytum|calculus||||||||3954|MSG||||||
+666110|KNBGX 935|Conophytum|concavum||||||||3956|MSG||||||
+941272||Conophytum|chrisocruxum||||||||3957|MSG||||||
+777727|EVJ 7839|Conophytum|fulleri||||||||3958|MSG||||||
+412167|RR sn|Conophytum|herreanthus|rex|||||||3959|MSG||||||
+459578|SB 1130|Conophytum|jucundum|marlothii|||||||3963|MSG||||||
+258254||Massonia|‘bredasdorpensis’||||||||3938|MSG||||||
+792979|CM 142|Conophytum|freidrichiae ||||||||3806|MSG||||||
+789072|MRO 72|Conophytum|maughanii|latum|||||||3810|MSG||||||
+994707|Ex C406|Lithops|gesinae||||||||3943|MSG||||||
+665638||Lithops|karasmontana|||West of Grunau|||||3441|MSG||||||
+825818|Ex C24|Lithops |julii|fulleri|||||||3380|MSG||||||
+993351|Ex C378|Lithops |julii |fulleri |||||||3400|MSG||||||
+276351|Ex C295|Lithops |karasmontana|bella|||||||3393|MSG||||||
+291643|Ex C117|Lithops|aucampiae||||||||3365|MSG||||||
+902455|C160|Lithops|verruculosa||glabra||||||1315.501|Schelkunova||||||
+817006|C177|Lithops|verruculosa||glabra||||||1315.502|Schelkunova||||||
+285310||Pleiospilos|nelii|||Royal Flush||||||Schelkunova||||||
