@@ -8,7 +8,7 @@ from library.models import Plant
 def run():
     path = '/usr/src/app/scripts/plants_export.txt'
     with open(path) as file:
-        reader = csv.reader(file)
+        reader = csv.reader(file, delimiter='|')
         next(reader)  # Advance past the header
 
         owner = User.objects.get(id=2)  # dntx
