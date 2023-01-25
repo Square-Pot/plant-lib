@@ -6,7 +6,9 @@ from library.models import Plant
 
 
 def run():
-    with open('plants_export.txt') as file:
+    print('Enter path of data:')
+    path = input()
+    with open(path) as file:
         reader = csv.reader(file)
         next(reader)  # Advance past the header
 
