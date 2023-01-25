@@ -86,3 +86,7 @@ def check_cell(cell_content):
         return True
     else:
         return False
+
+
+run()
+
