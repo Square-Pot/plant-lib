@@ -31,13 +31,13 @@ class Plant(models.Model):
     subspecies = models.CharField(max_length=50, blank=True)
     variety = models.CharField(max_length=50, blank=True)
     cultivar = models.CharField(max_length=50, blank=True)
-    field_number = models.CharField(max_length=10, blank=True)
+    field_number = models.CharField(max_length=12, blank=True)
     form = models.CharField(max_length=50, blank=True)
     affinity = models.CharField(max_length=50, blank=True)
     ex = models.CharField(max_length=50, blank=True)
 
     # Additional info fields
-    info = models.CharField(max_length=50, blank=True)
+    info = models.CharField(max_length=200, blank=True)
     geography = models.CharField(max_length=100, blank=True)
     source = models.CharField(max_length=50, blank=True)
     price = models.CharField(max_length=10, blank=True)
