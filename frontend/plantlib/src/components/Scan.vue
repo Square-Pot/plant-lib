@@ -23,22 +23,19 @@ import QRCodeScanner from './QRCodeScanner.vue'
     },
     methods: {
       onScan (decodedText, decodedResult) {
-        console.log(decodedText);
+        // console.log(decodedText);
         // console.log(decodedResult);
         this.getData(decodedText);
 
       },
       async getData(uid) {
         try {
-            // fetch plants
             const response = await axios.get('https://galangal.ru:8000/api/plant/' + uid);
-            // set the data returned as plants
             this.plant = response.data; 
-            console.log(this.plant);
+            this.scanning = false;
             this.show_scanner = false;
             this.show_result = true;
         } catch (error) {
-            // log the error
             console.log(error);
         }
       },
