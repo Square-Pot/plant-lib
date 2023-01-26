@@ -17,4 +17,27 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class PlantSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Plant
-        fields = ['uid', 'genus']
+        fields = [
+            'uid', 
+            'owner',
+            'is_deleted',
+            'date_created',
+            'date_purchase',
+            'deta_seeding',
+            'genus', 
+            'species', 
+            'subspecies', 
+            'variety', 
+            'cultivar', 
+            'field_number', 
+            'form',
+            'affinity',
+            'ex',
+            'info',
+            'geography',
+            'source',
+            'price',
+            'description',
+            'user_number',
+            'avatar',
+        ]
