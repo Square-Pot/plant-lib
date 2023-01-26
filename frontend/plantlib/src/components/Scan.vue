@@ -31,7 +31,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
       async getData(uid) {
         try {
             // fetch plants
-            const response = await axios.get('http://localhost:8000/api/plant/' + uid);
+            const response = await axios.get('http://galangal.ru:8000/api/plant/' + uid);
             // set the data returned as plants
             this.plant = response.data; 
             this.show_scanner = false;
@@ -71,7 +71,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
       </div>
 
       <!-- Scanner -->
-      <div class="px-4 pt-3  my-4 text-center" v-if="show_scanner" >
+      <div class="px-4 my-4 text-center" v-if="show_scanner" >
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
             <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" />
@@ -87,13 +87,54 @@ import QRCodeScanner from './QRCodeScanner.vue'
           <div class="col-10 d-flex justify-content-center">
             <div class="card justify-content-center  mb-3" style="max-width: 540px;" >
               <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="/src/assets/plant_example.jpg" class="img-fluid rounded-start" alt="{{ plant.genus }}">
-                </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">{{ plant.genus }}</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 v-if="plant.field_number">{{ plant.field_number }}</h5>
+                    <h6 class="card-title">
+                      <span class="fst-italic">{{ plant.genus }}</span>
+                      <template v-if="plant.species"> sp. <span class="fst-italic">{{ plant.species }}</span></template>
+                      <template v-if="plant.subspecies"> ssp. <span class="fst-italic">{{ plant.subspecies }}</span></template>
+                      <template v-if="plant.variety"> var. <span class="fst-italic">{{ plant.variety }}</span></template>
+                      <template v-if="plant.cultivar"> cv. '<span class="fst-italic">{{ plant.cultivar }}</span>'</template>
+                    </h6>
+                    <table class="table" style="font-size:0.80em;">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Age:</th>
+                          <td>{{ plant.date_purchase }}</td>
+                        </tr>
+                        <tr  v-if="plant.source">
+                          <th scope="row">Source:</th>
+                          <td>{{ plant.source }}</td>
+                        </tr>
+                        <tr v-if="plant.form">
+                          <th scope="row">Form:</th>
+                          <td>{{ plant.form }}</td>
+                        </tr>
+                        <tr v-if="plant.affinity">
+                          <th scope="row">Affinity:</th>
+                          <td>{{ plant.affinity }}</td>
+                        </tr>
+                        <tr v-if="plant.ex">
+                          <th scope="row">Ex:</th>
+                          <td>{{ plant.ex }}</td>
+                        </tr>
+                        <tr v-if="plant.geography">
+                          <th scope="row">Geography:</th>
+                          <td>{{ plant.geography }}</td>
+                        </tr>
+                        <tr v-if="plant.price">
+                          <th scope="row">Price:</th>
+                          <td>{{ plant.price }}</td>
+                        </tr>
+                        <tr v-if="plant.user_number">
+                          <th scope="row">Custom number:</th>
+                          <td>{{ plant.user_number }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p class="card-text" v-if="plant.info">Info: This is a wider card with supporting text below as a natural lead-in.</p>
+                    <p class="card-text" v-if="plant.description">Description: This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">UID: {{ plant.uid }}</small></p>
                   </div>
                 </div>
@@ -102,5 +143,4 @@ import QRCodeScanner from './QRCodeScanner.vue'
           </div>
         </div>
       </div>
-
 </template>
