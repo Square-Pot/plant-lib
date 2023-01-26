@@ -27,7 +27,6 @@ export default {
     },
     methods: {
         onScanSuccess(decodedText, decodedResult) {
-            Html5QrcodeScanner.clear();
             this.$emit('result', decodedText, decodedResult);
         }
     }

@@ -83,11 +83,11 @@ import QRCodeScanner from './QRCodeScanner.vue'
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
 
-              <div class="card" style="width: 18rem;">
+              <div class="card">
                 <div class="card-body">
                   <h5 class="card-title fw-light">
-                    <template v-if="plant.field_number"><span class="fs-6">{{ plant.field_number }}    </span></template>
-                    <span class="fst-italic fw-normal">{{ plant.genus.charAt(0).toUpperCase() + plant.genus.slice(1) }}</span>
+                    <template v-if="plant.field_number"><span class="badge bg-secondary">{{ plant.field_number }}</span> </template>
+                    <span class="fst-italic fw-normal">  {{ '  ' + plant.genus.charAt(0).toUpperCase() + plant.genus.slice(1) }}</span>
                     <template v-if="plant.species">  sp. <span class="fst-italic fw-normal">{{ plant.species }}</span></template>
                     <template v-if="plant.subspecies">  ssp. <span class="fst-italic fw-normal">{{ plant.subspecies }}</span></template>
                     <template v-if="plant.variety">  var. <span class="fst-italic fw-normal">{{ plant.variety }}</span></template>
@@ -131,7 +131,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
                   </table>
                   <p class="card-text" v-if="plant.info">{{ plant.info }}</p>
                   <p class="card-text" v-if="plant.description">{{ plant.description }}</p>
-                  <p class="card-text"><small class="text-muted">UID: {{ plant.uid }}</small></p>
+                  <p class="card-footer text-end"><small class="text-muted">UID: {{ plant.uid }}</small></p>
                 </div>
               </div>
                 
