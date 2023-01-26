@@ -32,7 +32,6 @@ import QRCodeScanner from './QRCodeScanner.vue'
         try {
             const response = await axios.get('https://galangal.ru:8000/api/plant/' + uid);
             this.plant = response.data; 
-            this.scanning = false;
             this.show_scanner = false;
             this.show_result = true;
         } catch (error) {
