@@ -19,7 +19,6 @@ class PlantSerializer(serializers.HyperlinkedModelSerializer):
         model = Plant
         fields = [
             'uid', 
-            'owner',
             'is_deleted',
             'date_created',
             'date_purchase',
@@ -39,5 +38,4 @@ class PlantSerializer(serializers.HyperlinkedModelSerializer):
             'price',
             'description',
             'user_number',
-            'avatar',
         ]
