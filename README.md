@@ -7,7 +7,7 @@ This project is related to another one: [Plants Data Organizer](https://github.c
 
 ## Built with:
 - [Vue.js 3](https://vuejs.org/) as a frontend framework
-- [html5-qrcode](https://github.com/davidshimjs/html5-qrcode) library for QR code scanning
+- [html5-qrcode](https://github.com/mebjas/html5-qrcode ) library for QR code scanning
 - [Django](https://www.djangoproject.com/) and [Django REST framework](https://www.django-rest-framework.org/) as a backend framework
 - [PostgreSQL](https://www.postgresql.org/) as a data storage
 - [Nginx](https://www.nginx.com/) as a web server
