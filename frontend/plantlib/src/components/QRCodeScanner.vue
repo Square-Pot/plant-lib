@@ -16,6 +16,10 @@ export default {
             type: Number,
             default: 10
         },
+        stop: {
+            type: Boolean,
+            default: false
+        }
     },
     mounted() {
         const config = {
@@ -24,14 +28,21 @@ export default {
         };
         const html5QrcodeScanner = new Html5QrcodeScanner('qr-code-full-region', config);
         html5QrcodeScanner.render(this.onScanSuccess);
+        this.html5QrcodeScanner = html5QrcodeScanner;
+    },
+    watch: {
+        stop(){
+            this.stopScan()
+        }
     },
     methods: {
         onScanSuccess(decodedText, decodedResult) {
             this.$emit('result', decodedText, decodedResult);
         },
 
-        stop(){
-            Html5QrcodeScanner.stop().then((ignore) => {
+        stopScan(){
+            console.log('Scanning was stopped 1');
+            this.html5QrcodeScanner.stop().then((ignore) => {
                 // QR Code scanning is stopped.
                 console.log('Scanning was stopped');
             }).catch((err) => {

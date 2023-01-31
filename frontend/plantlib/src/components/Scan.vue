@@ -8,6 +8,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
     props: {
         scanning: Boolean,
         multipleMode: Boolean,
+        stopScanning: Boolean, 
     },
     data() {
       return {
@@ -18,9 +19,13 @@ import QRCodeScanner from './QRCodeScanner.vue'
       }
     },
     watch: {
-        scanning(new_val, old_val){
+        scanning(){
             this.scanInit()
-        }
+        },
+        // stop(){
+        //     this.scanStop()
+        // },
+
     },
     methods: {
       onScan (decodedText, decodedResult) {
@@ -57,9 +62,9 @@ import QRCodeScanner from './QRCodeScanner.vue'
           this.show_result = false;
         }
       },
-      scanStop(){
-        $Scanner.stop();
-      }
+      // scanStop(){
+      //   console.log('ScanStop from Scan.vue');
+      // }
     }
   }
 </script>
@@ -82,7 +87,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
       <div class="px-4 my-4 text-center" v-if="show_scanner" >
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
-            <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" ref="Scanner" />
+            <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" :stop="stopScanning" />
             <div id="qr-code-full-region"></div>
           </div>
         </div>
