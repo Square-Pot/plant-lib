@@ -14,7 +14,11 @@ This project is related to another one: [Plants Data Organizer](https://github.c
 - [Docker Compose](https://docs.docker.com/compose/) for orchestration
 
 ## Usage:
-The Plant Lib app is designed to be simple and easy to use. All you need is a browser on a desktop or mobile device and access to the camera. No additional software is required. 
+For deploy use `docker compose` after changing credentials.  
+For end user The Plant Lib app is designed to be simple and easy to use. All you need is a browser on a desktop or mobile device and access to the camera. No additional software is required.
+
+
+
 
 ## Demo:
 Want to see `Plant Lib` app in action? Check out our working prototype by clicking on this link: [galangal.ru](https://galangal.ru). As an example, you can use the data matrix code shown in the screenshot above to test the app. Keep in mind that this is a prototype and some features may not be fully functional yet.
