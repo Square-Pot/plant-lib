@@ -7,6 +7,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
   export default {
     props: {
         scanning: Boolean,
+        multipleMode: Boolean,
     },
     data() {
       return {
@@ -32,8 +33,15 @@ import QRCodeScanner from './QRCodeScanner.vue'
         try {
             const response = await axios.get('https://galangal.ru:8000/api/plant/' + uid);
             this.plant = response.data; 
-            this.show_scanner = false;
-            this.show_result = true;
+            if (!this.multipleMode){
+              this.show_scanner = false;
+              this.show_result = true;
+              // stop scanning
+              $Scanner.stop();
+            } else {
+              // add result 
+              console.log('Add result');
+            }
         } catch (error) {
             console.log(error);
         }
@@ -48,6 +56,9 @@ import QRCodeScanner from './QRCodeScanner.vue'
           this.show_scanner = true;
           this.show_result = false;
         }
+      },
+      scanStop(){
+        $Scanner.stop();
       }
     }
   }
@@ -71,7 +82,7 @@ import QRCodeScanner from './QRCodeScanner.vue'
       <div class="px-4 my-4 text-center" v-if="show_scanner" >
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
-            <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" />
+            <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" ref="Scanner" />
             <div id="qr-code-full-region"></div>
           </div>
         </div>

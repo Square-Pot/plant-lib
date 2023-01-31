@@ -12,6 +12,7 @@ import Scan from './components/Scan.vue'
     data() {
       return {
         scanningOn: false,
+        multipleMode: false,
       }
     },
     methods: {
@@ -84,7 +85,7 @@ import Scan from './components/Scan.vue'
     <!-- Scaner -->
     <div class="container text-center" style="min-height: 500px;">
 
-      <Scan :scanning="scanningOn" />
+      <Scan :scanning="scanningOn" :multipleMode="multipleMode" ref="ScanComp" />
 
     </div>
 
@@ -101,8 +102,16 @@ import Scan from './components/Scan.vue'
 
     <!-- Buttons Mobile -->
     <div class="container py-4 text-center" >
-      <div class="fixed-bottom  d-block d-sm-block d-md-block d-lg-none ">
-        <div class="md-flex justify-content-between bg-light bg-gradient py-2 shadow-lg">
+      <div class="fixed-bottom  d-block d-sm-block d-md-block d-lg-none bg-light bg-gradient py-2 shadow-lg">
+        <div class="md-flex justify-content-between" >
+          <div class="form-check form-check-inline form-switch py-3" v-if="scanningOn">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" v-model="multipleMode">
+            <label class="form-check-label" for="flexSwitchCheckDefault me-2" @click="$refs.ScanComp.scanStop()">Multiple Plants Scannig mode</label>
+            <button type="button" class="btn btn-danger btn-sm ms-4 me-2">Stop</button>
+            <button type="button" class="btn btn-outline-danger btn-sm mx-2">Clear</button>
+          </div>
+        </div>
+        <div class="md-flex justify-content-between ">
           <button class="btn btn-lg px-4 mx-2 btn-success" type="button" @click="scanToggle">Scan</button>
           <button class="btn btn-lg px-4 mx-2 btn-outline-dark" type="button">Plants</button>
           <button class="btn btn-lg px-4 mx-2 btn-outline-dark" type="button">Labels</button>
