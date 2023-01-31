@@ -42,14 +42,7 @@ export default {
 
         stopScan(){
             console.log('Scanning was stopped 1');
-            this.html5QrcodeScanner.stop().then((ignore) => {
-                // QR Code scanning is stopped.
-                console.log('Scanning was stopped');
-            }).catch((err) => {
-                // Stop failed, handle it.
-                console.log('Error by stopping the camera');
-                console.log(err)
-            });
+            this.html5QrcodeScanner.clear()
         }
     }
 };
