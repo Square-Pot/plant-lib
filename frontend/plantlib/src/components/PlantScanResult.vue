@@ -1,10 +1,10 @@
 <script>
 
 export default {
-    plant: {
-        type: Object
+    props: {
+        plant: Object
     }
-}
+};
 
 </script>
 

@@ -17,6 +17,7 @@ import PlantScanResult from './PlantScanResult.vue';
           show_scanner: false,
           show_intro: true,
           show_result: false,
+          results: [],
       }
     },
     watch: {
@@ -42,15 +43,18 @@ import PlantScanResult from './PlantScanResult.vue';
               stopScanning = !stopScanning;
               this.show_scanner = false;
               this.show_result = true;
+              this.addNewResult(this.plant);
             } else {
               // add result 
               console.log('Add result');
+              this.show_result = true;
+              this.addNewResult(this.plant);
             }
         } catch (error) {
             console.log(error);
         }
       },
-      scanInit (){
+      scanInit(){
         if (this.show_scanner){
           this.show_intro = true;
           this.show_scanner = false;
@@ -58,12 +62,12 @@ import PlantScanResult from './PlantScanResult.vue';
         } else {
           this.show_intro = false;
           this.show_scanner = true;
-          this.show_result = false;
+          this.show_result = true;
         }
       },
-      // scanStop(){
-      //   console.log('ScanStop from Scan.vue');
-      // }
+      addNewResult(result_plant){
+        this.results.push(result_plant)
+      }
     }
   }
 </script>
@@ -98,7 +102,7 @@ import PlantScanResult from './PlantScanResult.vue';
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
 
-              <PlantScanResult :plant="plant" />
+              <PlantScanResult v-for="(plant, index) in results" :plant="plant" />
                 
           </div>
         </div>
