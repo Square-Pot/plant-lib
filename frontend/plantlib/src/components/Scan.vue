@@ -18,6 +18,7 @@ import PlantScanResult from './PlantScanResult.vue';
           show_intro: true,
           show_result: false,
           results: [],
+          uids: [],
       }
     },
     watch: {
@@ -40,13 +41,12 @@ import PlantScanResult from './PlantScanResult.vue';
             const response = await axios.get('https://galangal.ru:8000/api/plant/' + uid);
             this.plant = response.data; 
             if (!this.multipleMode){
-              stopScanning = !stopScanning;
+              this.stopScanning = !this.stopScanning;
               this.show_scanner = false;
               this.show_result = true;
               this.addNewResult(this.plant);
             } else {
               // add result 
-              console.log('Add result');
               this.show_result = true;
               this.addNewResult(this.plant);
             }
@@ -66,7 +66,12 @@ import PlantScanResult from './PlantScanResult.vue';
         }
       },
       addNewResult(result_plant){
-        this.results.push(result_plant)
+        if ( !result_plant.uid.includes(result_plant.uid) ){
+          this.results.push(result_plant)
+          this.uids.push(result_plant.uid)
+        }
+        
+
       }
     }
   }
@@ -101,9 +106,9 @@ import PlantScanResult from './PlantScanResult.vue';
       <div class="px-4 pt-3  my-4 text-center" v-if="show_result" >
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
-
-              <PlantScanResult v-for="(plant, index) in results" :plant="plant" />
-                
+              <ul>
+                <PlantScanResult v-for="(plant, index) in results" :plant="plant" />
+              </ul>  
           </div>
         </div>
       </div>

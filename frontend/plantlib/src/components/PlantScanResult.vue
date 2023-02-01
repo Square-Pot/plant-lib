@@ -9,7 +9,8 @@ export default {
 </script>
 
 <template>
-  <div class="card">
+            <li>
+              <div class="card">
                 <div class="card-body">
                   <h5 class="card-title fw-light">
                     <template v-if="plant.field_number"><span class="badge bg-secondary">{{ plant.field_number }}</span> </template>
@@ -60,4 +61,5 @@ export default {
                   <p class="card-footer text-end"><small class="text-muted">UID: {{ plant.uid }}</small></p>
                 </div>
               </div>
+            </li>
 </template>
