@@ -66,7 +66,7 @@ import PlantScanResult from './PlantScanResult.vue';
         }
       },
       addNewResult(result_plant){
-        if ( !result_plant.uid.includes(result_plant.uid) ){
+        if ( !this.uids.includes(result_plant.uid) ){
           this.results.push(result_plant)
           this.uids.push(result_plant.uid)
         }
@@ -94,6 +94,7 @@ import PlantScanResult from './PlantScanResult.vue';
       <!-- Scanner -->
       <p>Results: {{ results }}</p>
       <p>UIDs: {{ uids }}</p>
+      <p>Multiple Mode: {{ multipleMode }}</p>
       <div class="px-4 my-4 text-center" v-if="show_scanner" >
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
