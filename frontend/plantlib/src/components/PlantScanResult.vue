@@ -1,10 +1,11 @@
-<script setup>
-defineProps({
+<script>
+
+export default {
     plant: {
-    type: Object,
-    required: true
-  }
-})
+        type: Object
+    }
+}
+
 </script>
 
 <template>
