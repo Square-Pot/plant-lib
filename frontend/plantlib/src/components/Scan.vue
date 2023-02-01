@@ -92,6 +92,8 @@ import PlantScanResult from './PlantScanResult.vue';
       </div>
 
       <!-- Scanner -->
+      <p>Results: {{ results }}</p>
+      <p>UIDs: {{ uids }}</p>
       <div class="px-4 my-4 text-center" v-if="show_scanner" >
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
