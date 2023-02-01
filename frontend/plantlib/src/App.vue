@@ -14,6 +14,7 @@ import Scan from './components/Scan.vue'
         scanningOn: false,
         multipleMode: false,
         stopScanning: false,
+        clearResults: false,
       }
     },
     methods: {
@@ -21,8 +22,10 @@ import Scan from './components/Scan.vue'
         this.scanningOn = !this.scanningOn
       },
       stopScanToggle(){
-        console.log('was pressed')
         this.stopScanning = !this.stopScanning
+      },
+      clearResultsToggle(){
+        this.clearResults = !this.clearResults
       }
     }
 }
@@ -90,7 +93,7 @@ import Scan from './components/Scan.vue'
     <!-- Scaner -->
     <div class="container text-center" style="min-height: 500px;">
 
-      <Scan :scanning="scanningOn" :multipleMode="multipleMode" :stopScanning="stopScanning" />
+      <Scan :scanning="scanningOn" :multipleMode="multipleMode" :stopScanning="stopScanning" :clearResults="clearResults" />
 
     </div>
 
@@ -113,7 +116,7 @@ import Scan from './components/Scan.vue'
             <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" v-model="multipleMode">
             <label class="form-check-label" for="flexSwitchCheckDefault me-2">Multiple Plants Mode</label>
             <button type="button" class="btn btn-danger btn-sm ms-4 me-2" @click="stopScanToggle">Stop</button>
-            <button type="button" class="btn btn-outline-danger btn-sm mx-2">Clear</button>
+            <button type="button" class="btn btn-outline-danger btn-sm mx-2" @click="clearResultsToggle">Clear</button>
           </div>
         </div>
         <div class="md-flex justify-content-between ">
