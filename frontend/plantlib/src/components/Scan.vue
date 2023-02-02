@@ -88,7 +88,7 @@ import PlantScanResult from './PlantScanResult.vue';
 
 
 <template>
-
+    <p>autoStop: {{ autoStop }}</p>
     <!--Intro -->
     <div class="px-4 my-3 text-center" v-if="show_intro">
         <h1 class="display-4 fw-bold">Organize your plants</h1>
