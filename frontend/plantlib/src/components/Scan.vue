@@ -20,9 +20,10 @@ import PlantScanResult from './PlantScanResult.vue';
           show_result: false,
           results: [],
           uids: [],
+          autoStop: false,
       }
     },
-    emits: ['stopScan'],
+    // emits: ['stopScan'],
     watch: {
         scanning(){
             this.scanInit()
@@ -44,8 +45,9 @@ import PlantScanResult from './PlantScanResult.vue';
             if (!this.multipleMode){
               this.show_scanner = false;
               this.show_result = true;
+              this.autoStopToggle();
               this.addNewResult(this.plant);
-              this.$emit('stopScan');
+              // this.$emit('stopScan');
             } else {
               // add result 
               this.show_result = true;
@@ -60,7 +62,6 @@ import PlantScanResult from './PlantScanResult.vue';
           this.show_intro = true;
           this.show_scanner = false;
           this.show_result = false;
-          this.$emit('stopScan');
         } else {
           this.show_intro = false;
           this.show_scanner = true;
@@ -77,6 +78,9 @@ import PlantScanResult from './PlantScanResult.vue';
         this.results = [];
         this.uids = []
         console.log('results was cleared')
+      },
+      autoStopToggle(){
+        this.autoStop = !this.autoStop
       }
     }
   }
@@ -100,7 +104,7 @@ import PlantScanResult from './PlantScanResult.vue';
       <div class="px-4 my-4 text-center" v-if="show_scanner" >
         <div class="row justify-content-center my-3">
           <div class="col-10 d-flex justify-content-center">
-            <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" :stop="stopScanning" />
+            <QRCodeScanner :qrbox="250" :fps="10" style="width: 400px;" @result="onScan" :stop="stopScanning" :autoStop="autoStop"/>
             <div id="qr-code-full-region"></div>
           </div>
         </div>

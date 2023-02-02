@@ -19,7 +19,11 @@ export default {
         stop: {
             type: Boolean,
             default: false
-        }
+        },
+        autoStop: {
+            type: Boolean,
+            default: false
+        },
     },
     mounted() {
         const config = {
@@ -33,7 +37,10 @@ export default {
     watch: {
         stop(){
             this.stopScan()
-        }
+        },
+        autoStop(){
+            this.stopScan()
+        },
     },
     methods: {
         onScanSuccess(decodedText, decodedResult) {
