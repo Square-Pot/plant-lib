@@ -93,7 +93,7 @@ import Scan from './components/Scan.vue'
     <!-- Scaner -->
     <div class="container text-center" style="min-height: 500px;">
 
-      <Scan :scanning="scanningOn" :multipleMode="multipleMode" :stopScanning="stopScanning" :clearResults="clearResults" />
+      <Scan :scanning="scanningOn" :multipleMode="multipleMode" :stopScanning="stopScanning" :clearResults="clearResults" @stopScan="stopScanToggle"/>
 
     </div>
 

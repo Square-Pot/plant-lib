@@ -22,6 +22,7 @@ import PlantScanResult from './PlantScanResult.vue';
           uids: [],
       }
     },
+    emits: ['stopScan'],
     watch: {
         scanning(){
             this.scanInit()
