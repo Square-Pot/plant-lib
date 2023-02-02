@@ -23,9 +23,13 @@ import Scan from './components/Scan.vue'
       },
       stopScanToggle(){
         this.stopScanning = !this.stopScanning
+        console.log('toggling')
       },
       clearResultsToggle(){
         this.clearResults = !this.clearResults
+      },
+      test(){
+        console.log('Stop emmited')
       }
     }
 }

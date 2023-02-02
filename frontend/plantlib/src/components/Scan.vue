@@ -45,6 +45,7 @@ import PlantScanResult from './PlantScanResult.vue';
               this.show_scanner = false;
               this.show_result = true;
               this.addNewResult(this.plant);
+              this.$emit('stopScan');
             } else {
               // add result 
               this.show_result = true;
